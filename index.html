@@ -41,7 +41,7 @@
   <body class="poppins">
     <!-- Header Section  -->
     <header class="container mx-auto">
-      <nav>
+      <nav class="">
         <div class="navbar bg-base-100">
           <div class="flex-1">
             <div class="dropdown">
@@ -88,7 +88,8 @@
           </div>
         </div>
       </nav>
-      <div class="carousel w-full bg-orange-200 lg:h-[550px]">
+      <!-- -----------Slider------------ -->
+      <div class="carousel w-full bg-orange-200 lg:h-[550px] mb-40">
         <!-- -------------Slide 1------------ -->
         <div id="slide1" class="carousel-item relative w-full">
           <div
@@ -115,7 +116,7 @@
           <div
             class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
           >
-            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❮</a>
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
         </div>
@@ -182,7 +183,24 @@
       </div>
     </header>
     <!-- Main Section  -->
-    <main class="container mx-auto"></main>
+    <main class="container mx-auto">
+        <div class="text-center">
+            <h1  class="text-4xl">Featured Bikes In This Year</h1>
+            <p class="text-red-400 m-3">Best bike collection</p>
+            <div class="flex justify-between ">
+                <div class="basis-3/12">
+                    <img src="./images/others/feature-bike.png" alt="" class="w-full">
+                </div>
+                <div class="basis-3/12">
+                    <img src="./images/others/feature-bike.png" alt="" class="w-full">
+                </div>
+                <div class="basis-3/12">
+                    <img src="./images/others/feature-bike.png" alt="" class="w-full">
+                </div>
+            </div>
+        </div>
+        
+    </main>
     <!-- Footer Section  -->
     <footer></footer>
   </body>
